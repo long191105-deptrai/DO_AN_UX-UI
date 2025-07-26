@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Chi tiết sản phẩm - Thanh Hùng Futsal</title>
+    <link rel="stylesheet" href="globals_futsal_adidas.css" />
+    <link rel="stylesheet" href="styleguide_futsal_adidas.css" />
+    <link rel="stylesheet" href="product_detail_adidas.css" />
+    <link rel="stylesheet" href="style_futsal_adidas.css" />
+    </head>
+  <body>
+    <header class="main-header">
+      <img class="logo" src="img2/logo-thanhhung.jpg" alt="Thanh Hùng Futsal logo" />
+      <form class="search-form" role="search">
+        <input type="search" placeholder="Bạn đang tìm kiếm...." aria-label="Tìm kiếm sản phẩm" />
+        <button type="submit" aria-label="Tìm kiếm">
+          <img src="img2/timkiem.png" alt="Biểu tượng tìm kiếm" />
+        </button>
+      </form>
+      <a href="#" class="cart-icon" id="cart-icon" aria-label="Giỏ hàng">
+        <img src="img2/giohang.png" alt="Biểu tượng giỏ hàng" />
+        <span class="cart-count">0</span> </a>
+      <nav>
+        <ul>
+          <li><a href="trangchu.html" class="active">Trang Chủ</a></li>
+          <li><a href="nike_trangchu.html">Nike</a></li>
+          <li><a href="adidas_trangchu.html">Adidas</a></li>
+          <li><a href="#">Puma</a></li>
+          <li><a href="#">Liên Hệ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="product-detail-main">
+      <div class="product-detail-container">
+        <div class="product-image-gallery">
+          <img id="product-main-image" src="" alt="Hình ảnh sản phẩm" />
+          <div class="thumbnail-images" id="product-thumbnails">
+            </div>
+        </div>
+        <div class="product-info">
+          <h1 id="product-name">Tên sản phẩm</h1>
+          <p class="product-price" id="product-price">Giá sản phẩm</p>
+
+          <div class="product-options">
+            <div class="option-group">
+              <label for="shoe-size">Size:</label>
+              <select id="shoe-size" name="shoe-size">
+                <option value="none">Chọn Size</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="42">42</option>
+                <option value="43">43</option>
+              </select>
+            </div>
+            <div class="option-group">
+              <label for="quantity">Số lượng:</label>
+              <input type="number" id="quantity" name="quantity" value="1" min="1" />
+            </div>
+          </div>
+
+          <div class="action-buttons">
+            <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            <button class="buy-now-button">Mua ngay</button>
+          </div>
+
+          <div class="product-description">
+            <h2>Mô tả sản phẩm</h2>
+            <p id="product-description">Mô tả chi tiết về sản phẩm sẽ được hiển thị ở đây.</p>
+          </div>
+          <a href="adidas_conhantao.html" class="back-to-shop">Quay lại trang sản phẩm Nike</a>
+        </div>
+      </div>
+    </main>
+
+    <div id="cart-modal" class="cart-modal-overlay">
+        <div class="cart-modal-content">
+            <span class="close-button">×</span>
+            <h2>Giỏ hàng của bạn</h2>
+            <div id="cart-items" class="cart-items-list">
+                <p id="empty-cart-message">Giỏ hàng trống.</p>
+            </div>
+            <div class="cart-summary">
+                <p>Tổng cộng: <span id="cart-total">0₫</span></p>
+            </div>
+            <div class="cart-actions">
+                <button id="checkout-button" class="checkout-button">Tiến hành Thanh toán</button>
+                <button id="clear-cart-button" class="clear-cart-button">Xóa hết Giỏ hàng</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <section class="social-media">
+        <h2>FACEBOOK</h2>
+        <a href="https://www.facebook.com/thanhhungfutsal" target="_blank" rel="noopener noreferrer">
+          <img src="img2/facebook.png" alt="Facebook page preview" />
+        </a>
+      </section>
+      <section class="instagram">
+        <h2>INSTAGRAM</h2>
+        <a href="https://www.instagram.com/thanhhungfutsal" target="_blank" rel="noopener noreferrer">
+          <img src="img2/instagram.png" alt="Facebook page preview" />
+        </a>
+      </section>
+      <section class="contact">
+        <h2>ĐỊA CHỈ VÀ HOTLINE</h2>
+        <address>
+          <p>
+            <a href="https://g.page/thanhhungfutsal?share" target="_blank" rel="noopener noreferrer">
+              THF I: 27 Đường D52, P. Bảy Hiền, TP. HCM | Hotline: 0901 377 722 | MST: 79192019064
+            </a>
+          </p>
+          <p>
+            <a href="https://maps.app.goo.gl/DNarYQ81yfbgHixj6" target="_blank" rel="noopener noreferrer">
+              THF II: 32A Thạch Thị Thanh, P. Tân Định, TP. HCM | Hotline: 0901 710 730 | MST: 060188016103
+            </a>
+          </p>
+          <p>
+            <a href="https://maps.app.goo.gl/hSKiVmFZYnCTr1Ev8" target="_blank" rel="noopener noreferrer">
+              THF III: 48 Phạm Văn Bạch, P. Tân Sơn, TP. HCM | Hotline: 0901 710 780 | MST: 60091004283
+            </a>
+          </p>
+        </address>
+      </section>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
