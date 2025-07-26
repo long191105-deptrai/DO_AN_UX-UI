@@ -348,5 +348,576 @@ const products = [
         imageUrl: "img/GIAYCOTUNHIEN/Giày đá bóng Nike Phantom GX II Elite FG limited.png",
         category: "co-tu-nhien",
         detailImages: ["img/GIAYCOTUNHIEN/chitiet2/chitiet184.png"," img/GIAYCOTUNHIEN/chitiet2/chitiet185.png"," img/GIAYCOTUNHIEN/chitiet2/chitiet186.png"," img/GIAYCOTUNHIEN/chitiet2/chitiet187.png"]
+    },
+    // --- PUMA FUTSAL ---
+    {
+        id: "futsal-PUMA ULTRA 5 IC",
+        name: "PUMA ULTRA 5 IC",
+        price: "3,000,000₫",
+        description: "Đây là mẫu giày futsal Nike Tiempo Legend 10 Academy IC màu xanh, mang lại sự thoải mái và kiểm soát bóng tối ưu trên sân futsal.",
+        imageUrl: "img1/puma futsal classic ic.webp",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA ULTRA 5 PRO CAGE IC",
+        name: "NIKE LUNAR GATO II",
+        price: "3,750,000₫",
+        description: "Phần upper được làm từ chất liệu sợi dệt nhẹ, mềm và mỏng với khả năng thích ứng dễ dàng theo form bàn chân người chơi. Trên bề mặt upper là lớp phủ silicon GRIPCONTROL PRO giúp làm tăng độ bám bóng, từ đó nâng cao khả năng kiểm soát bóng của người mang khi rê dắt ở tốc độ cao.",
+        imageUrl: "img1/puma ultra tím ic.webp",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA ULTRA ULTIMATE CAGE IC",
+        name: "PUMA ULTRA ULTIMATE CAGE IC",
+        price: "4,700,000₫",
+        description: "Phần upper được làm từ chất liệu sợi dệt nhẹ, mềm và mỏng với khả năng thích ứng dễ dàng theo form bàn chân người chơi. Trên bề mặt upper là lớp phủ silicon GRIPCONTROL PRO giúp làm tăng độ bám bóng, từ đó nâng cao khả năng kiểm soát bóng của người mang khi rê dắt ở tốc độ cao.",
+        imageUrl: "img1/puma ultra cam ic.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA ULTRA 1.1 IC",
+        name: "PUMA ULTRA 1.1 IC",
+        price: "2,500,000₫",
+        description: "Phần upper làm từ da tổng hợp được phủ một lớp GripControl làm tăng độ bám bóng và nâng cao khả năng kiểm soát bóng, giúp người chơi có thể chơi bóng ở mọi điều kiện thời tiết.",
+        imageUrl: "img1/puma ultra 1.1 đỏ ic.webp",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA FUTURE Z IC",
+        name: "PUMA FUTURE Z IC",
+        price: "4,500,000₫",
+        description: "Dải băng PWRTAPE chính giữa thân giày đã được tinh giản thành hình chữ V, giúp tạo độ ôm chắc chắn cho khu vực mù bàn chân.",
+        imageUrl: "img1/puma future 3 màu ic.png",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA ULTRA 5 CARBON IC",
+        name: "PUMA ULTRA 5 CARBON IC",
+        price: "3,100,000₫",
+        description: "Dải băng PWRTAPE chính giữa thân giày đã được tinh giản thành hình chữ V, giúp tạo độ ôm chắc chắn cho khu vực mù bàn chân.",
+        imageUrl: "img1/puma ultra xanh chuối ic.webp",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA FUTURE 7 MATCH IC",
+        name: "PUMA FUTURE 7 MATCH IC",
+        price: "2,500,000₫",
+        description: "Màu tím lạnh lùng của PUMA FUTURE 7 MATCH IC, mang lại vẻ ngoài thu hút và hiệu suất ổn định.",
+        imageUrl: "img1/puma future futsal xanh tím.webp",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA FUTURE 7.1 MATCH IC",
+        name: "PUMA FUTURE 7.1 MATCH IC",
+        price: "2,000,000₫",
+        description: "Phần upper làm từ da tổng hợp được phủ một lớp GripControl làm tăng độ bám bóng và nâng cao khả năng kiểm soát bóng.",
+        imageUrl: "img1/puma future xanh biển ic.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA OG IC",
+        name: "PUMA OG IC",
+        price: "2,500,000₫",
+        description: "Phiên bản cổ điển của PUMA, mang lại vẻ ngoài độc đáo và hoài niệm khi chơi bóng.",
+        imageUrl: "img1/puma indoor đen xám ic.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-PUMA FUTURE 7 MATCH IC",
+        name: "PUMA FUTURE 7 MATCH IC",
+        price: "3,500,000₫",
+        description: "Màu trắng thanh thoát của PUMA FUTURE 7 MATCH IC, mang lại vẻ ngoài thu hút và nhanh nhẹn.",
+        imageUrl: "img1/puma future 7 trắng ic.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+
+    {
+        id: "futsal-PUMA FUTURE 7.4 MATCH IC",
+        name: "PUMA FUTURE 7.4 MATCH IC",
+        price: "3,500,000₫",
+        description: "Màu trắng thanh thoát của PUMA FUTURE 7.4 MATCH IC, mang lại vẻ ngoài thu hút và nhanh nhẹn.",
+        imageUrl: "img1/puma future 7 trắng ic.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+
+    {
+        id: "futsal-PUMA CLASSIC.1 IC",
+        name: "PUMA CLASSIC.1 IC",
+        price: "2,500,000₫",
+        description: "Phiên bản cổ điển của PUMA, mang lại vẻ ngoài độc đáo và hoài niệm khi chơi bóng.",
+        imageUrl: "img1/puma classic ic.webp",
+        category: "futsal",
+        detailImages: []
+    },
+
+    {
+        id: "futsal-PUMA CLASSIC.2 IC",
+        name: "PUMA CLASSIC.2 IC",
+        price: "3,090,000₫",
+        description: "Phiên bản cổ điển của PUMA cải tiến từ PUMA CLASSIC.1 IC, mang lại vẻ ngoài độc đáo và hoài niệm khi chơi bóng.",
+        imageUrl: "img1/puma indoor.webp",
+        category: "futsal",
+        detailImages: []
+    },
+
+    // --- PUMA CỎ NHÂN TẠO ---
+    {
+        id: "conhantao-PUMA ULTRA ULTIMATE CAGE TF HỒNG",
+        name: "PUMA ULTRA ULTIMATE CAGE TF",
+        price: "3,100,000₫",
+        description: "Phần upper được làm từ sợi dệt ULTRAWEAVE siêu nhẹ với cấu trúc co giãn 4 chiều giúp giảm trọng lượng và ma sát.",
+        imageUrl: "img1/puma ultra hồng tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-PUMA ULTRA ULTIMATE CAGE TF VÀNG",
+        name: "PUMA ULTRA ULTIMATE CAGE TF",
+        price: "3,700,000₫",
+        description: "Phần upper được làm từ sợi dệt ULTRAWEAVE siêu nhẹ với cấu trúc co giãn 4 chiều giúp giảm trọng lượng và ma sát.",
+        imageUrl: "img1/puma ultra vàng tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-PUMA ULTRA ULTIMATE CAGE TF XANH MẠ NON",
+        name: "PUMA ULTRA ULTIMATE CAGE TF",
+        price: "2,700,000₫",
+        description: "Phần upper được làm từ sợi dệt ULTRAWEAVE siêu nhẹ với cấu trúc co giãn 4 chiều giúp giảm trọng lượng và ma sát. Công nghệ PWRPRINT Pro ở những điểm tiếp xúc bóng thường xuyên làm tăng độ bám bóng, từ đó nâng cao khả năng kiểm soát bóng của người mang khi rê bóng ở tốc độ cao.",
+        imageUrl: "img1/puma ultra xanh mạ non tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-PUMA FUTURE 8 PRO CAGE TF XANH CHUỐI",
+        name: "PUMA FUTURE 8 PRO CAGE TF",
+        price: "2,850,000₫",
+        description: "Phần upper được tạo thành từ sợi dệt LYCRA® mới với khả năng co giãn 4 chiều cực tốt kết hợp với lớp phủ silicon GRIPCONTROL PRO và các đường vân nổi tăng độ ma sát với bóng",
+        imageUrl: "img1/puma future xanh chuối tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-PUMA KING PRO TF XANH LÁ",
+        name: "PUMA KING PRO TF",
+        price: "2,850,000₫",
+        description: "Phần upper được làm từ da nhân tạo K-BETTER với độ mềm như da tự nhiên, nhưng mỏng và giữ form tốt hơn trước. Với chất liệu upper hoàn toàn mới này sẽ mang đến sự thoải mái và cảm giác bóng thật chân nhất cho người chơi. Trên khu vực đầu mũi được bọc da lộn giúp tăng độ bền cho đôi giày.",
+        imageUrl: "img1/puma king xanh lá tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-PUMA ULTRA 5 PRO CAGE TF ĐEN",
+        name: "PUMA ULTRA 5 PRO CAGE TF",
+        price: "3,000,000₫",
+        description: "Phần upper được làm từ chất liệu sợi dệt nhẹ, mềm và mỏng với khả năng thích ứng dễ dàng theo form bàn chân người chơi. Trên bề mặt upper là lớp phủ silicon GRIPCONTROL PRO giúp làm tăng độ bám bóng, từ đó nâng cao khả năng kiểm soát bóng của người mang khi rê dắt ở tốc độ cao.",
+        imageUrl: "img1/puma ultra đen tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-PUMA ULTRA 3.4 TF XÁM CAM",
+        name: "PUMA ULTRA 3.4 TF",
+        price: "1,590,000₫",
+        description: "Phần upper làm từ da tổng hợp được phủ một lớp GripControl làm tăng độ bám bóng và nâng cao khả năng kiểm soát bóng, giúp người chơi có thể chơi bóng ở mọi điều kiện thời tiết.",
+        imageUrl: "img1/puma ultra xám cam tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-PUMA ULTRA MATCH TF ĐỎ",
+        name: "PUMA ULTRA MATCH TF",
+        price: "2,590,000₫",
+        description: "Phần upper làm từ da tổng hợp dạng lưới siêu nhẹ, được phủ bên trên lớp GRIP CONTROL làm tăng độ bám bóng và nâng cao khả năng kiểm soát bóng, giúp người chơi có thể chơi bóng ở mọi điều kiện thời tiết.",
+        imageUrl: "img1/puma ultra đỏ tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+
+    {
+        id: "conhantao-PUMA ULTRA ULTIMATE CAGE TF CAM",
+        name: "PUMA ULTRA ULTIMATE CAGE TF",
+        price: "1,790,000₫",
+        description: "Phần upper làm từ da tổng hợp pha sợi dệt siêu nhẹ mang đến cảm giác bóng thật chân nhất cho người mang và bề mặt upper được phủ lớp GRIP CONTROL làm tăng độ bám bóng và nâng cao khả năng kiểm soát bóng.",
+        imageUrl: "img1/puma ultra cam tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+
+    {
+        id: "conhantao-PUMA FUTURE 8 MATCH CREATIVITY TF CAM",
+        name: "PUMA FUTURE 8 MATCH CREATIVITY TF",
+        price: "1,890,000₫",
+        description: "Phần upper được làm từ chất liệu vải mesh mềm, mỏng và nhẹ giúp mang lại cảm giác bóng thật chân nhất cho người chơi và sự kết hợp với lớp phủ GRIPCONTROL và các đường vân nổi tăng độ ma sát với bóng.",
+        imageUrl: "img1/puma future cam tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+
+    {
+        id: "conhantao-PUMA FUTURE 8 MATCH FOREVER TF XANH BIỂN",
+        name: "PUMA FUTURE 8 MATCH FOREVER TF",
+        price: "2,750,000₫",
+        description: "Phần upper được làm từ chất liệu vải mesh mềm, mỏng và nhẹ giúp mang lại cảm giác bóng thật chân nhất cho người chơi và sự kết hợp với lớp phủ GRIPCONTROL và các đường vân nổi tăng độ ma sát với bóng.",
+        imageUrl: "img1/puma future xanh biển tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+
+    {
+        id: "conhantao-PUMA ULTRA ULTIMATE CAGE TF XANH BIỂN ĐẬM",
+        name: "PUMA ULTRA ULTIMATE CAGE TF",
+        price: "2,550,000₫",
+        description: "Phần upper được làm từ sợi dệt ULTRAWEAVE siêu nhẹ với cấu trúc co giãn 4 chiều giúp giảm trọng lượng và ma sát.",
+        imageUrl: "img1/puma ultra xanh biển đậm tf.jpg",
+        category: "conhan-tao",
+        detailImages: []
+    },
+
+    // --- PUMA CỎ TỰ NHIÊN ---
+    {
+        id: "cotunhien-PUMA ULTRA ULTIMATE FG",
+        name: "PUMA ULTRA ULTIMATE FG",
+        price: "5,500,000₫",
+        description: "Phần upper được làm từ chất liệu sợi microfiber mềm mại nhưng không kém phần bền bỉ sẽ mang đến cảm giác bóng tốt nhất cho người chơi. Trên khu vực đầu mũi và má trong giày còn được thiết kế những đường vân hình tam giác làm tăng độ ma sát với bóng, từ đó giúp người chơi dễ dàng rê và kiểm soát bóng tốt hơn.",
+        imageUrl: "img1/puma king tím fg.webp",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-PUMA ULTRA MATCH ENERGY FG",
+        name: "PUMA ULTRA MATCH ENERGY FG",
+        price: "6,000,000₫",
+        description: "Phần upper làm từ da tổng hợp dạng lưới siêu nhẹ, được phủ bên trên lớp GRIP CONTROL làm tăng độ bám bóng và nâng cao khả năng kiểm soát bóng, giúp người chơi có thể chơi bóng ở mọi điều kiện thời tiết.",
+        imageUrl: "img1/puma ultra neon fg.webp",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-PUMA ULTRA 6 PRO CAGE FG",
+        name: "PUMA ULTRA 6 PRO CAGE FG",
+        price: "5,000,000₫",
+        description: "Phần upper được làm từ chất liệu sợi microfiber mềm mại nhưng không kém phần bền bỉ sẽ mang đến cảm giác bóng tốt nhất cho người chơi. Trên khu vực đầu mũi và má trong giày còn được thiết kế những đường vân hình tam giác làm tăng độ ma sát với bóng, từ đó giúp người chơi dễ dàng rê và kiểm soát bóng tốt hơn.",
+        imageUrl: "img1/puma xám hồng fg.webp",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-PUMA ULTRA ULTIMATE CAGE FG",
+        name: "PUMA ULTRA ULTIMATE CAGE FG",
+        price: "6,000,000₫",
+        description: "Trên bề mặt upper được phủ lớp GRIP CONTROL làm tăng độ bám bóng và nâng cao khả năng kiểm soát bóng, giúp người chơi có thể chơi bóng ở mọi điều kiện thời tiết.",
+        imageUrl: "img1/puma ultra xanh biển fg.png",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-PUMA ULTRA ULTIMATE 1.1 FG",
+        name: "PUMA ULTRA ULTIMATE 1.1 FG",
+        price: "4,500,000₫",
+        description: "Bên dưới lớp upper là cấu trúc SpeedCage giúp giày không bị mất form sau một thời gian chơi bóng, đồng thời giúp giữ cho bàn chân không bị xô lệch khi chơi bóng ở cường độ cao.",
+        imageUrl: "img1/puma ultra đen cam fg.webp",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-PUMA FUTURE 7 MATCH FG",
+        name: "PUMA FUTURE 7 MATCH FG",
+        price: "7,500,000₫",
+        description: "Công nghệ Engineered 3D Texture bao gồm các hạt được in dập nổi ở những khu vực tiếp xúc bóng chủ yếu giúp làm tăng ma sát với bóng. Từ đó tối ưu hóa khả năng chạm và kiểm soát bóng của người mang trong các tình huống xử lý ở tốc độ cao.",
+        imageUrl: "img1/puma future trắng fg.jpg",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-PUMA KING ALL BLACK FG",
+        name: "PUMA KING ALL BLACK FG",
+        price: "4,000,000₫",
+        description: "Phiên bản được cải tiến từ đôi giày của các huyền thoại như Maradona, Cruyff, Pele,...",
+        imageUrl: "img1/puma king đen xám fg.jpg",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-PUMA FUTURE 7.6 MATCH FG",
+        name: "PUMA FUTURE 7.6 MATCH FG",
+        price: "7,000,000₫",
+        description: "Giữa thân giày là dải thun FUZIONFIT cải tiến có khả năng thích ứng cực tốt với hình dáng bàn chân người mang, đảm bảo sự vừa vặn thoải mái khi mang giày có dây lẫn không dây.",
+        imageUrl: "img1/puma future xanh biển fg.webp",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+
+    {
+        id: "cotunhien-PUMA ONE FG",
+        name: "PUMA ONE FG",
+        price: "4,500,000₫",
+        description: "Phần upper được làm từ chất liệu sợi microfiber mềm mại nhưng không kém phần bền bỉ sẽ mang đến cảm giác bóng tốt nhất cho người chơi. Trên khu vực đầu mũi và má trong giày còn được thiết kế những đường vân hình tam giác làm tăng độ ma sát với bóng, từ đó giúp người chơi dễ dàng rê và kiểm soát bóng tốt hơn.",
+        imageUrl: "img1/puma king xám fg.jpg",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+
+    {
+        id: "cotunhien-PUMA ULTRA ULTIMATE 1.2 FG",
+        name: "PUMA ULTRA ULTIMATE 1.2 FG",
+        price: "4,500,000₫",
+        description: "Phần upper được làm từ chất liệu sợi microfiber mềm mại nhưng không kém phần bền bỉ sẽ mang đến cảm giác bóng tốt nhất cho người chơi. Trên khu vực đầu mũi và má trong giày còn được thiết kế những đường vân hình tam giác làm tăng độ ma sát với bóng, từ đó giúp người chơi dễ dàng rê và kiểm soát bóng tốt hơn.",
+        imageUrl: "img1/puma ultra 1.1 xanh.jpg",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+
+    {
+        id: "cotunhien-PUMA ULTRA CARBON.4 FG",
+        name: "PUMA ULTRA CARBON.4 FG",
+        price: "8,500,000₫",
+        description: "Phần upper được làm từ chất liệu sợi microfiber mềm mại nhưng không kém phần bền bỉ sẽ mang đến cảm giác bóng tốt nhất cho người chơi. Đế giày sử dụng vật liệu CARBON siêu nhẹ và bền bỉ hỗ trợ sức bật cho người chơi.",
+        imageUrl: "img1/puma king đen trắng.jpg",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    
+    {
+        id: "cotunhien-PUMA ULTRA ULTIMATE PRO FG",
+        name: "PUMA ULTRA ULTIMATE PRO FG",
+        price: "5,090,000₫",
+        description: "Phần upper được làm từ sợi dệt ULTRAWEAVE siêu nhẹ với cấu trúc co giãn 4 chiều giúp giảm trọng lượng và ma sát. Cải tiến lớn nhất trên phiên bản lần này đến từ việc áp dụng công nghệ PWRTAPE bên dưới lớp upper.",
+        imageUrl: "img1/puma ultra trắng đỏ fg.webp",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    // --- ADIDAS FUTSAL ---
+    {
+        id: "futsal-Adidas-TOP-Sala-Competition-II-IH7684",
+        name: "Adidas TOP Sala Competition II - IH7684 - Trắng/Đỏ",
+        price: "2,150,000₫",
+        description: "Đây là mẫu giày futsal idas TOP Sala Competition II - IH7684, mang lại sự thoải mái và kiểm soát bóng tối ưu trên sân futsal.",
+        imageUrl: "img2/giayfutsal/g-futsal-giay-da-bong-adidas-top-sala-competition-ii-ih7684-trang-do-1_9ecce5d82df54b50b3789e8821c1010e_grande.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-Adidas-TOP-Sala-Competition-II-IH7685",
+        name: "Adidas TOP Sala Competition II - IH7685 - Vàng Chanh",
+        price: "2,150,000₫",
+        description: "Mẫu giày đá bóng futsal adidas Top Sala Competition II hứa hẹn sẽ mang đến trải nghiệm chơi bóng hoàn hảo dành cho các Futsalnista!",
+        imageUrl: "img2/giayfutsal/futsal-giay-da-bong-adidas-top-sala-competition-ii-ih7685-vang-chanh-1_db10078d420d4bc5a52336a66b235075_grande.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-Adidas-TOP-Sala-Competition-IE7549",
+        name: "Adidas TOP Sala Competition - IE7549 - Đỏ bạc đô",
+        price: "1,790,000₫",
+        description: "ADIDAS TOP SALA COMPETITION thế hệ mới lần này sở hữu cho mình một lớp upper da bê mềm mại, bộ đệm Lightstrike siêu êm ái cùng form giày bè hơn người tiền nhiệm giúp người chơi tự tin bước vào mọi trận đấu!",
+        imageUrl: "img2/giayfutsal/ung-futsal-giay-da-bong-adidas-top-sala-competition-ie7549-do-bac-do-1_654909908641442898c5f6367229dc9d_grande.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-Adidas-TOP-Sala-Competition-IE1546",
+        name: "Adidas TOP Sala Competition - IE1546 - Đen/Đỏ",
+        price: "1,690,000₫",
+        description: " ADIDAS TOP SALA COMPETITION thế hệ mới lần này sở hữu cho mình một lớp upper da bê mềm mại, bộ đệm Lightstrike siêu êm ái cùng form giày bè hơn người tiền nhiệm giúp người chơi tự tin bước vào mọi trận đấu!",
+        imageUrl: "img2/giayfutsal/giay-da-bong-adidas-top-sala-competition-ie1546-den-do-1_ce7daaa1522a4a45aea4e9c601b8c972_grande.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-Adidas-TOP-Sala-Competition-FZ6123",
+        name: "Adidas TOP Sala Competition - FZ6123 - Xanh Hoàng Gia",
+        price: "1,690,000₫",
+        description: "ADIDAS TOP SALA COMPETITION thế hệ mới lần này sở hữu cho mình một lớp upper da bê mềm mại, bộ đệm Lightstrike siêu êm ái cùng form giày bè hơn người tiền nhiệm giúp người chơi tự tin bước vào mọi trận đấu!",
+        imageUrl: "img2/giayfutsal/giay-da-banh-adidas-top-sala-competition-fz6123-xanh-hoang-gia-1_66dc7dbf9f034381b55f0d6a98585e50_grande.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "Adidas-TOP-Sala-Competition-GY9055",
+        name: "Adidas TOP Sala Competition - GY9055 - Đen/Trắng",
+        price: "1,790,000₫",
+        description: "ADIDAS TOP SALA COMPETITION thế hệ mới lần này sở hữu cho mình một lớp upper da bê mềm mại, bộ đệm Lightstrike siêu êm ái cùng form giày bè hơn người tiền nhiệm giúp người chơi tự tin bước vào mọi trận đấu!",
+        imageUrl: "img2/giayfutsal/giay-da-banh-adidas-top-sala-competition-gy9055-den-trang-1_6e6524ff698a4dfeb8bb80380c420c5f_grande.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "Adidas-Top-Sala-Competition-IE1545",
+        name: "Adidas Top Sala Competition - IE1545 - Đỏ/Trắng",
+        price: "2,000,000₫",
+        description: " ADIDAS TOP SALA COMPETITION thế hệ mới lần này sở hữu cho mình một lớp upper da bê mềm mại, bộ đệm Lightstrike siêu êm ái cùng form giày bè hơn người tiền nhiệm giúp người chơi tự tin bước vào mọi trận đấu!",
+        imageUrl: "img2/giayfutsal/giay-da-bong-adidas-top-sala-competition-ie1546-do-trang-1_fe32cc7d035b43c99c6df7cdd68ef593_master.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    {
+        id: "futsal-Adidas-Top-Sala-Comletition-FZ6124",
+        name: "Adidas Top Sala Comletition - FZ6124 - Trắng/Xanh",
+        price: "1,190,000₫",
+        description: "ADIDAS TOP SALA COMPETITION thế hệ mới lần này sở hữu cho mình một lớp upper da bê mềm mại, bộ đệm Lightstrike siêu êm ái cùng form giày bè hơn người tiền nhiệm giúp người chơi tự tin bước vào mọi trận đấu!",
+        imageUrl: "img2/giayfutsal/giay-da-banh-adidas-top-sala-competition-fz6123-xanh-hoang-gia-1_66dc7dbf9f034381b55f0d6a98585e50_grande.jpg",
+        category: "futsal",
+        detailImages: []
+    },
+    
+
+    // --- ADIDAS CỎ NHÂN TẠO ---
+    {
+        id: "Adidas-Giày-cỏ-nhân-tạo-Deportivo-III",
+        name: "Adidas Giày cỏ nhân tạo Deportivo III- Trắng",
+        price: "1,000,000₫",
+        description: "Tôn vinh môn thể thao vua với đôi giày đá bóng adidas này. Với thiết kế phù hợp cho sân cỏ nhân tạo, đôi giày này có lưỡi gà đục lỗ và lớp lót mềm mại giúp đôi chân bạn luôn khô thoáng suốt những trận đấu kéo dài.",
+        imageUrl: "img2/giayconhantao/deportivo-iii-turf-boots.png",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "Adidas-Giày-cỏ-nhân-tạo-F50-League",
+        name: "Adidas Giày cỏ nhân tạo F50 League - Trắng",
+        price: "2,440,000₫",
+        description: "Khai phá tốc độ để thể hiện trọn vẹn cá tính trên sân cỏ. Cảm nhận nhịp đập tốc độ cùng giày đá bóng adidas F50 – sinh ra để dẫn đầu mọi cuộc đua. ",
+        imageUrl: "img2/giayconhantao/f50-league-turf-boots.png",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "Adidas-Giày-cỏ-nhân-tạo-F50-Club",
+        name: "Adidas Giày cỏ nhân tạo F50 Club - Trắng/Xanh/Cam",
+        price: "1,600,000₫",
+        description: "Giày sân cỏ nhân tạo Nike Tiempo Legend 10 Academy TF, kết hợp giữa sự thoải mái và kiểm soát bóng chính xác.",
+        imageUrl: "img2/giayconhantao/f50-league-turf-boots.png",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-Adidas-Giày-cỏ-nhân-tạo-F50-Club",
+        name: "Adidas Giày cỏ nhân tạo F50 Club - Xanh/Hồng",
+        price: "1,600,000₫",
+        description: "Bứt phá tốc độ với đôi giày adidas F50 siêu nhẹ chú trọng tốc độ. Đôi giày đá bóng Club này giúp bạn luôn thoải mái khi di chuyển nhờ thân giày Fiberskin nâng đỡ và lưỡi gà đục lỗ. Bên dưới là đế đinh bằng cao su tạo đà cho bạn bứt tốc trên sân cỏ nhân tạo.",
+        imageUrl: "img2/giayconhantao/f50-league-turf-boots.avif",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-Adidas-Giày-cỏ-nhân-tạo-F50-League-Messi",
+        name: "Adidas Giày cỏ nhân tạo F50 League Messi - Xám/Xanh",
+        price: "2,160,000₫",
+        description: "Bứt phá tốc độ với đôi giày adidas F50 siêu nhẹ chú trọng tốc độ. Đôi giày đá bóng Club này giúp bạn luôn thoải mái khi di chuyển nhờ thân giày Fiberskin nâng đỡ và lưỡi gà đục lỗ. Bên dưới là đế đinh bằng cao su tạo đà cho bạn bứt tốc trên sân cỏ nhân tạo.",
+        imageUrl: "img2/giayconhantao/F50_LEAGUE_TF_J_MESSI_Bac_IH0925_01_00_standard_hover.avif",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "Adidas-Giày-cỏ-nhân-tạo-F50-League",
+        name: "Adidas Giày cỏ nhân tạo F50 League - Hồng neon",
+        price: "1,440,000₫",
+        description: "Giải phóng tốc độ với giày adidas F50. Khai phá tối đa tiềm năng bứt tốc, chuyển động và tốc độ của bạn. Cố định bàn chân nhờ lưỡi gà co giãn, thân giày Fiberskin trên đôi giày đá bóng siêu nhẹ adidas League này có họa tiết Sprintgrid ở phần mũi giày.",
+        imageUrl: "img2/giayconhantao/giay-da-bong-turf-f50-league.avif",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-Adidas-Giày-cỏ-nhân-tạo-Deportivo-III",
+        name: "Adidas Giày cỏ nhân tạo Deportivo III - Đen",
+        price: "2,750,000₫",
+        description: "Tôn vinh môn thể thao vua với đôi giày đá bóng adidas này. Với thiết kế phù hợp cho sân cỏ nhân tạo, đôi giày này có lưỡi gà đục lỗ và lớp lót mềm mại giúp đôi chân bạn luôn khô thoáng suốt những trận đấu kéo dài.",
+        imageUrl: "img2/giayconhantao/giay-da-bong-turf-deportivo-iii.avif",
+        category: "conhan-tao",
+        detailImages: []
+    },
+    {
+        id: "conhantao-Adidas Giày cỏ nhân tạo Messi F50 League dành cho trẻ em",
+        name: "Adidas Giày cỏ nhân tạo Messi F50 League dành cho trẻ em - Đen/Vàng/Trắng",
+        price: "1,190,000₫",
+        description: "Tốc độ F50, phong cách Messi. Năm 2024, loạt giày đá bóng adidas dành riêng cho Lionel Messi được thiết kế để bám sát hơn nữa theo nhu cầu của anh. ",
+        imageUrl: "img2/giayconhantao/giay-da-bong-turf-messi-f50-league-tre-em.avif",
+        category: "conhan-tao",
+        detailImages: []
+    },
+
+    // --- ADIDAS CỎ TỰ NHIÊN ---
+    {
+        id: "cotunhien-Adidas-Giày-Firm-Ground-lưỡi-gà-lật-Predator-Elite",
+        name: "Adidas Giày Firm Ground lưỡi gà lật Predator Elite - Trắng/Xanh/Đen",
+        price: "6,000,000₫",
+        description: "Khác biệt nằm ở chỗ: bạn không chỉ nhắm đến bàn thắng, mà biết chắc mình sẽ ghi bàn – với adidas Predator, đôi giày được sinh ra để kiến tạo những pha lập công.",
+        imageUrl: "img2/giaycotunhine/logo-puma-section.png",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-Adidas-Giày-cỏ-tự-nhiên-Predator-League",
+        name: "Adidas Giày cỏ tự nhiên Predator League - Trắng/Xanh/Đen",
+        price: "2,500,000₫",
+        description: "Khác biệt nằm ở chỗ: bạn không chỉ nhắm đến bàn thắng, mà biết chắc mình sẽ ghi bàn – với adidas Predator, đôi giày được sinh ra để kiến tạo những pha phá lưới. Giày đá bóng Elite này sở hữu phần thân trên HybridTouch kết hợp cùng các vân cao su Strikeskin được bố trí chiến lược, mang đến cảm giác chạm bóng hoàn hảo trong từng pha xử lý.",
+        imageUrl: "img2/giaycotunhine/Giay_DJa_Bong_Cho_San_Co_Tu_Nhien_Predator_Elite_trang_JI1082_HM1.avif",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-Adidas-Giày-Firm/Multi-Ground-Predator-League",
+        name: "Adidas Giày Firm/Multi-Ground Predator League- Cam/Trắng",
+        price: "2,400,000₫",
+        description: "Tự tin ra sân với đôi giày đá bóng adidas Predator Elite giúp bạn ghi bàn. Với các vây cao su Strikeskin được bố trí hợp lý ở phần mũi giày, thân giày HybridTouch linh hoạt giúp bạn chạm bóng hoàn hảo.",
+        imageUrl: "img2/giaycotunhine/giay-da-bong-firm-multi-ground-predator-club.avif",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-Adidas-Giày-cỏ-tự-nhiên-Predator-League",
+        name: "Adidas Giày cỏ tự nhiên Predator League - Trắng/Cam",
+        price: "2,500,000₫",
+        description: "Tự tin ra sân với đôi giày đá bóng adidas Predator Elite giúp bạn ghi bàn. Với các vây cao su Strikeskin được bố trí hợp lý và lưỡi gà lật, thân giày HybridTouch linh hoạt giúp bạn chạm bóng hoàn hảo. ",
+        imageUrl: "img2/giaycotunhine/Giay_DJa_Bong_Firm_Ground_Predator_Elite_DJo_ID3882_HM1.avif",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-Adidas-Giày-Firm-Ground-F50-Elite",
+        name: "Adidas Giày Firm Ground F50 Elite - Gold/Trắng",
+        price: "5,800,000₫",
+        description: "Khai phá tốc độ để thể hiện chất riêng trên sân cỏ. Cảm nhận nhịp đập tốc độ cùng giày đá bóng adidas F50 – sinh ra để dẫn đầu mọi cuộc đua. Giày đá bóng Elite với thân giày bằng Fibertouch siêu nhẹ, lưỡi giày ôm gọn",
+        imageUrl: "img2/giaycotunhine/Giay_DJa_Bong_Cho_San_Co_Tu_Nhien_Predator_Elite_trang_JI1082_HM1.avif",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-Adidas Giày-Firm-Ground-Copa-Purn-3-Elite",
+        name: "Adidas Giày Firm Ground Copa Purn 3 Elite - Đen/Trắng",
+        price: "5,500,000₫",
+        description: "Chơi theo cách của bạn với đôi giày đá bóng adidas Copa Pure 3 Elite mang lại sự thoải mái và cảm giác bóng. Thiết kế ôm vừa vặn theo hình dáng bàn chân kết hợp giữa lưỡi gà adidas PRIMEKNIT, gót giày lót đệm và lót giày OrthoLite® cho cảm giác cố định.",
+        imageUrl: "img2/giaycotunhine/Giay_DJa_Bong_Firm_Ground_Copa_Pure_3_Elite_trang_ID9037_HM1.avif",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-Adidas-Giày-Firm-Ground-X-Speedportal.1",
+        name: "Adidas Giày Firm Ground X Speedportal.1 - Hồng/Đen",
+        price: "3,360,000₫",
+        description: "Tâm trí. Cơ thể. Giày. Tất cả kết nối chỉ trong nháy mắt. Hãy mang giày adidas X Speedportal để khai phá tốc độ đa chiều. Nhẹ nhàng và ôm chân, thân giày Speedskin phiên bản nâng cấp của đôi giày đá bóng này có cổ giày adidas PRIMEKNIT co giãn, tấm carbon cố định gót giày và rìa ổn định cho độ ôm chắc chắn khi di chuyển tốc độ cao.",
+        imageUrl: "img2/giaycotunhine/giay-da-bong-firm-ground-x-speedportal.1.avif",
+        category: "co-tu-nhien",
+        detailImages: []
+    },
+    {
+        id: "cotunhien-Adidas-Giày-Firm-Ground-Không-Dây-Predator-Elite",
+        name: "Adidas Giày Firm Ground Không Dây Predator Elite - Đen/Trắng/Cam",
+        price: "3,360,000₫",
+        description: "Giày Predator chỉ hướng đến một mục tiêu: ghi bàn. Được trang bị công nghệ hỗ trợ ghi bàn mới nhất, hãy sẵn sàng phô diễn những cú bóng xoáy, lực sút và khả năng kiểm soát đầy bứt phá.",
+        imageUrl: "img2/giaycotunhine/Giay_DJa_Bong_Firm_Ground_Khong_Day_Predator_Elite_DJen_IE1805_HM1.avif",
+        category: "co-tu-nhien",
+        detailImages: []
     }
 ];
